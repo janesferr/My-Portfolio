@@ -17,8 +17,8 @@ function Nav() {
     </li>
     <li className="nav-item">
       <Link
-        to="/blog"
-        className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+        to="/projects"
+        className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}
       >
         Projects
       </Link>
@@ -33,8 +33,8 @@ function Nav() {
     </li>
     <li className="nav-item">
       <Link
-        to="/contact/learn"
-        className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
+        to="/contact/portfolio"
+        className={location.pathname === "/contact/portfolio" ? "nav-link active" : "nav-link"}
       >
         Portofolio
       </Link>

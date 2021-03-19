@@ -1,9 +1,9 @@
 import React from "react";
 
-function Learn() {
+function Portfolio() {
   return (
     <div>
-      <h1 className="text-center">hello</h1>
+      <h1 className="text-center">Portfolio</h1>
       <p>
       {/* <main class="main">
         <div class="card bg-light mb-3">
@@ -72,4 +72,4 @@ function Learn() {
   );
 }
 
-export default Learn;
+export default Portfolio;

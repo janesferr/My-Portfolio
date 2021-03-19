@@ -1,6 +1,6 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
-import Learn from "./Learn";
+import { Route } from "react-router-dom";
+import Portfolio from "./Portfolio";
 
 function Contact(props) {
   return (
@@ -26,7 +26,7 @@ function Contact(props) {
             </div>
             </div>
         </div>
-        <Route exact path={`${props.match.url}/learn`} component={Learn} />
+        <Route exact path={`${props.match.url}/portofolio`} component={Portfolio} />
         </div>
   );
 }

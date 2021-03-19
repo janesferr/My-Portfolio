@@ -1,37 +1,52 @@
+
 import React from "react";
+// import pic from "../../Images/newbackground.png"
+import Fade from "react-reveal/Fade"
+import './Header.scss';
+
+
 
 function Home() {
   return (
-  <>
    
-
-
-    <main className="main">
-        <div className="card bg-light mb-3">
-            <div className="card-body">
-                <h1> About Me </h1>
-                <hr>
-                </hr>
-                <img src="./goodpic.jpeg"
-                    alt="landscapeimage pic " />
-                <p className="card-text">
-                Web Developer & Technical Trainer A dynamic web designer and applications trainer with freelance, agency and classroom, virtual
-and individual teaching experience. Develops customized curricula and designs solutions to improve productivity and implement best
-practices. Collaborates with organizational stakeholders to deliver a product fully aligned with needs and expectations. Leverages
-both creative and technical approaches to create best-in-class websites and training programs. Areas of Expertise Consultation ~
-Client Relations ~ Compliance ~ Innovative Solutions Project Management ~ Leadership ~ Presentations ~ Cross Functional
-Collaboration ~ Issue Resolution ~ Research
+    <div className="section" id="home">
+      <div className="container">
+        <div className="header-wrapper">
+          <Fade bottom>
+            <h2>
+              Hi, I'm Jane Sferrazza
+              <span role="img" aria-label="Emoji">
+                👋
+              </span>
+            </h2>
+          </Fade>
+          <Fade bottom cascade>
+            <div className="heading-wrapper">
+              <h1>
             
-                </p>
+              </h1>
+              <h1>
+               
+               A Full Stack Developer
+              </h1>
+              
             </div>
+          </Fade>
+          <Fade bottom>
+            <p></p>
+          </Fade>
+          <Fade bottom>
+          <a href="mailto:jane.sferrazza888@gmail.com">
+          CONNECT WITH ME
+          </a>
+             
+          
+          </Fade>
         </div>
-    </main>
-    <footer>
-        <hr className="lineinFooter">
-        </hr>
-        <p >&copy; Copyright</p>
-    </footer>
-    </>
+      </div>
+    </div>
+       
+   
   );
 }
 
