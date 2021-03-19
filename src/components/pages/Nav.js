@@ -31,14 +31,7 @@ function Nav() {
         Contact
       </Link>
     </li>
-    <li className="nav-item">
-      <Link
-        to="/contact/portfolio"
-        className={location.pathname === "/contact/portfolio" ? "nav-link active" : "nav-link"}
-      >
-        Portofolio
-      </Link>
-    </li>
+    
   </ul>
   );
 }

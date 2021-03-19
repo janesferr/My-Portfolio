@@ -17,7 +17,7 @@ const Card = ({heading, paragraph, imgUrl, projectLink }) => {
           ")",
       }}
     >
-      {/* <img src={imgUrl} alt="Logo" /> */}
+   
        <div className="content">
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>

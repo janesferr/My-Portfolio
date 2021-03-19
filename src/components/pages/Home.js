@@ -3,6 +3,8 @@ import React from "react";
 // import pic from "../../Images/newbackground.png"
 import Fade from "react-reveal/Fade"
 import './Header.scss';
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 
 
@@ -40,7 +42,8 @@ function Home() {
           <a href="mailto:jane.sferrazza888@gmail.com">
           CONNECT WITH ME
           </a>
-             
+             <Projects />
+             <Contact />
           
           </Fade>
         </div>
