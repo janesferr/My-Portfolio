@@ -6,6 +6,7 @@ import './Header.scss';
 
 
 
+
 function Home() {
   return (
    
@@ -45,8 +46,7 @@ function Home() {
         </div>
       </div>
     </div>
-       
-   
+    
   );
 }
 
