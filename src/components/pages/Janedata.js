@@ -7,8 +7,7 @@ import Game from "../../Images/game.gif"
 import MediCal from "../../Images/MediCall.png"
 
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
+  
   projects: [
     {
       title: "Project One", //Project Title - Add Your Project Title Here
