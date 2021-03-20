@@ -9,7 +9,7 @@ function Header() {
   return (
     <ul className="nav nav-tabs">
     <li className="nav-item">
-      <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+      <Link to="/Portofolio-React" className={location.pathname === "/Portofolio-React" ? "nav-link active" : "nav-link"}>
         Jane Sferrazza
       </Link>
     </li>

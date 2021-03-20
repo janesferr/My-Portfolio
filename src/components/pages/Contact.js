@@ -18,7 +18,7 @@ function Contact() {
               <label for="exampleFormControlTextarea1" class="form-label">Message</label>
               <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"
                 placeholder="Message"></textarea>
-              <div className="btn btn-primary waves-effect waves-light"> Send</div>
+              <div className="button-color"> Send</div>
             </div>
             </div>
      
