@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/Portofolio-React/static/css/main.d2798bf9.chunk.css",
-    "main.js": "/Portofolio-React/static/js/main.534b0e8a.chunk.js",
-    "main.js.map": "/Portofolio-React/static/js/main.534b0e8a.chunk.js.map",
+    "main.css": "/Portofolio-React/static/css/main.fb6f30a1.chunk.css",
+    "main.js": "/Portofolio-React/static/js/main.13f4085a.chunk.js",
+    "main.js.map": "/Portofolio-React/static/js/main.13f4085a.chunk.js.map",
     "runtime-main.js": "/Portofolio-React/static/js/runtime-main.58ec5546.js",
     "runtime-main.js.map": "/Portofolio-React/static/js/runtime-main.58ec5546.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/Portofolio-React/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bb0dd78d.chunk.js": "/Portofolio-React/static/js/2.bb0dd78d.chunk.js",
-    "static/js/2.bb0dd78d.chunk.js.map": "/Portofolio-React/static/js/2.bb0dd78d.chunk.js.map",
+    "static/js/2.b826bc7c.chunk.js": "/Portofolio-React/static/js/2.b826bc7c.chunk.js",
+    "static/js/2.b826bc7c.chunk.js.map": "/Portofolio-React/static/js/2.b826bc7c.chunk.js.map",
     "index.html": "/Portofolio-React/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/Portofolio-React/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.d2798bf9.chunk.css.map": "/Portofolio-React/static/css/main.d2798bf9.chunk.css.map",
-    "static/js/2.bb0dd78d.chunk.js.LICENSE.txt": "/Portofolio-React/static/js/2.bb0dd78d.chunk.js.LICENSE.txt",
+    "static/css/main.fb6f30a1.chunk.css.map": "/Portofolio-React/static/css/main.fb6f30a1.chunk.css.map",
+    "static/js/2.b826bc7c.chunk.js.LICENSE.txt": "/Portofolio-React/static/js/2.b826bc7c.chunk.js.LICENSE.txt",
+    "static/media/BudgetTracker.7911ecf4.png": "/Portofolio-React/static/media/BudgetTracker.7911ecf4.png",
+    "static/media/MediCall.57e289e5.png": "/Portofolio-React/static/media/MediCall.57e289e5.png",
     "static/media/WeatherScreenshot.1be85864.png": "/Portofolio-React/static/media/WeatherScreenshot.1be85864.png",
-    "static/media/WorkDayScheduleerpic.96d0fd37.png": "/Portofolio-React/static/media/WorkDayScheduleerpic.96d0fd37.png"
+    "static/media/WorkDayScheduleerpic.96d0fd37.png": "/Portofolio-React/static/media/WorkDayScheduleerpic.96d0fd37.png",
+    "static/media/game.df650b3c.gif": "/Portofolio-React/static/media/game.df650b3c.gif",
+    "static/media/workoutimage.d30f8ade.png": "/Portofolio-React/static/media/workoutimage.d30f8ade.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58ec5546.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bb0dd78d.chunk.js",
-    "static/css/main.d2798bf9.chunk.css",
-    "static/js/main.534b0e8a.chunk.js"
+    "static/js/2.b826bc7c.chunk.js",
+    "static/css/main.fb6f30a1.chunk.css",
+    "static/js/main.13f4085a.chunk.js"
   ]
 }
