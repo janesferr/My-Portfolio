@@ -1,17 +1,20 @@
 import React from "react";
 import Card from "./Card";
 import Fade from "react-reveal/Fade";
-import data from "./Janedata"
-import  "./Project.scss"
+import data from "./Janedata";
+import Footer from "./Footer";
+import  "./Project.scss";
+
 
 
 function Projects() {
   return (
+    <>
     <div className="section" id="work">
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Project</h1>
+            <h1>Projects</h1>
           </Fade>
           <div className="grid">
             <Fade bottom cascade>
@@ -30,6 +33,8 @@ function Projects() {
         </div>
       </div>
     </div>
+   <Footer></Footer> 
+   </>
   )
 }
 

@@ -4,16 +4,15 @@ import React from "react";
 import Fade from "react-reveal/Fade"
 import './Header.scss';
 import Projects from "./Projects";
-import Contact from "./Contact";
 
 
 
 
 function Home() {
   return (
-   
+    <div className="container">
     <div className="section" id="home">
-      <div className="container">
+      
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
@@ -43,7 +42,7 @@ function Home() {
           CONNECT WITH ME
           </a>
              <Projects />
-             <Contact />
+             
           
           </Fade>
         </div>
