@@ -10,6 +10,18 @@ import  "./Project.scss";
 function Projects() {
   return (
     <>
+     {/* <div class="w3-row-padding w3-center w3-section"> */}
+     <Fade bottom>
+            <h1>Projects</h1>
+          </Fade>
+            <div class="w3-col m4">
+                    <div class="card"> 
+                            {/* <img class="card__img" src="assets/pictures/get-lost-screenshot-1.png" alt="Get Lost"> */}
+                            <h2 class="card__title">Get Lost</h2>
+                            <p class="card__text">Hiking app utilizing Firebase and API calls to allow a user to find, store, and track their favorite hiking trails.</p>
+                           
+                          </div>
+            </div>
     <div className="section" id="work">
       <div className="container">
         <div className="work-wrapper">
@@ -33,6 +45,7 @@ function Projects() {
         </div>
       </div>
     </div>
+    
    <Footer></Footer> 
    </>
   )

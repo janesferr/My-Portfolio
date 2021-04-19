@@ -10,7 +10,9 @@ function Header() {
     <ul className="nav nav-tabs">
     <li className="nav-item">
       <Link to="/Portofolio-React" className={location.pathname === "/Portofolio-React" ? "nav-link active" : "nav-link"}>
+      
         Jane Sferrazza
+        <i className="fa fa-home fa-2x"></i>
       </Link>
     </li>
     <li className="nav-item">
@@ -20,7 +22,10 @@ function Header() {
         to="/projects"
         className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}
       >
-        Projects
+         <i className="fa fa-th fa-2x">
+         
+           </i> 
+       
       </Link>
     </li>
     <li className="nav-item">
@@ -28,7 +33,8 @@ function Header() {
         to="/contact"
         className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
       >
-        Contact
+         <i className="fa fa-envelope fa-2x"></i>
+       
       </Link>
     </li>
     
